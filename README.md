@@ -9,6 +9,7 @@ An end-to-end Business Intelligence project analyzing **24,500+ Netflix Titles**
 - [Dashboard Layout & Visualizations](#dashboard-layout-visualization)
 - [Strategic Recommendations](#strategic-recommedations)
 - [Data Pipeline & Modeling](#data-pipeline-modeling)
+- [Data Challenges & Resolution](#data-challenges-resolution)
 - [Authour & Acknowledgments](#author-acknowledgements)
 
 
@@ -85,8 +86,15 @@ Understanding content portfolio distribution and viewer ratings is essential for
   ```Total Title = COUNTROWS(netflix_genre_titles)```
 
   ```Avg runtime = AVERAGE(netflix_genre_titles[runtime])```
+  # ⚠️ Data Challenges & Resolution
+  | **Challenges** | **Resolution**|
+  |:--- |:---|
+  |**Blank/Missing Values** | Inputed missing numerical data using mean substitution.|
+  |**Inconsistent Data Types** | Re-cast colums to explicit, approptiate data types in Power Query.|
+  |**Dirty text field**| Clean string column headers and values using `TRIM()` and `Clean()`.|
+  |**Delimiter Extraction**| Split combined text strings(e.g multiple production countries by commas) into) into distinct rows and columnsusing Power Query's **Split Column by Delimeter** feature.|
   
   ## 🤝 Author & Acknowledges
-  - **Data Analyst:** Izobo Precious Oghenefega
+  - **Data Analyst:** Izobo Precious Oghenefega | [Profile](https://github.com/Preci0us01)(view here)
   - **Tools Used:** Microsoft Power BI Desktop, DAX, Power Query
-  - **Data Sources:**  
+  - **Data Sources:**  [Kaggle](https://www.kaggle.com/datasets/imtkaggleteam/netflix) (download here)
