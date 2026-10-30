@@ -8,7 +8,8 @@ An end-to-end Business Intelligence project analyzing **24,500+ Netflix Titles**
 - [Key Performance Indicators](#key-performance-indicators)
 - [Dashboard Layout & Visualizations](#dashboard-layout-visualization)
 - [Strategic Recommendations](#strategic-recommedations)
-- [Data Pipeline & Modeling](#data-pipeline-modeling)
+- [Data Modeling & DAX Measures](#data-Modeling-DAX-Measures)
+- [Repository Structure](#repository-structure)
 - [Data Challenges & Resolution](#data-challenges-resolution)
 - [Authour & Acknowledgments](#author-acknowledgements)
 
@@ -86,6 +87,12 @@ Understanding content portfolio distribution and viewer ratings is essential for
   ```Total Title = COUNTROWS(netflix_genre_titles)```
 
   ```Avg runtime = AVERAGE(netflix_genre_titles[runtime])```
+
+  # 📁 Repository Structure
+
+  **Dashboard Preview**
+
+  
   # ⚠️ Data Challenges & Resolution
   | **Challenges** | **Resolution**|
   |:--- |:---|
