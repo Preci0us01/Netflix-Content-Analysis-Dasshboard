@@ -88,7 +88,7 @@ Understanding content portfolio distribution and viewer ratings is essential for
 
   ```Avg runtime = AVERAGE(netflix_genre_titles[runtime])```
 
-  # 📁 Repository Structure
+  ## 📁 Repository Structure
 
   **Dashboard Preview**
 
@@ -96,7 +96,7 @@ Understanding content portfolio distribution and viewer ratings is essential for
   [Netflix Content Analysis Dashboard](https://github.com/user-attachments/assets/ec51a07e-2e1f-445c-9fdc-1a58703bd1dc)
 
   
-  # ⚠️ Data Challenges & Resolution
+  ## ⚠️ Data Challenges & Resolution
   | **Challenges** | **Resolution**|
   |:--- |:---|
   |**Blank/Missing Values** | Inputed missing numerical data using mean substitution.|
