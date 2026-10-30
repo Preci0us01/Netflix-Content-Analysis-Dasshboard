@@ -91,7 +91,7 @@ Understanding content portfolio distribution and viewer ratings is essential for
   # 📁 Repository Structure
 
   **Dashboard Preview**
-  [Netflix Content Analysis Dashboard](https://github.com/user-attachments/assets/0c5c163b-147e-4246-80e8-bf1d71fa61c2)
+  [Netflix Content Analysis Dashboard](https://github.com/user-attachments/assets/ec51a07e-2e1f-445c-9fdc-1a58703bd1dc)
 
   
   # ⚠️ Data Challenges & Resolution
